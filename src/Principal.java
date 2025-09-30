@@ -1,4 +1,4 @@
-public class main {
+public class Principal {
     public static void main (String[] args){
         Usuario gerente = new Usuario("Beatriz Tamaki", "23456789190", "beatriz@gmail.com",
                 "Gerente de projetos", "beatriz.tamaki", "12345", "Gerente");

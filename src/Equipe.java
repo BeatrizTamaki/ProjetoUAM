@@ -2,13 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Equipe {
-    private String nomeEquipe;
+    private String Equipe;
     private String descricao;
     private List <Usuario> membro;
     private List <Projeto> projetos;
 
-    public Equipe(String nomeEquipe, String descricao) {
-        this.nomeEquipe = nomeEquipe;
+    public Equipe(String Equipe, String descricao) {
+        this.Equipe = Equipe;
         this.descricao = descricao;
         this.membro = new ArrayList<>();
         this.projetos = new ArrayList<>();
@@ -23,7 +23,7 @@ public class Equipe {
     }
 
     public void exibirInfo(){
-        System.out.println("Equipe: " + nomeEquipe + " | Descricao: " + descricao);
+        System.out.println("Equipe: " + Equipe + " | Descricao: " + descricao);
 
         System.out.println("Membros: ");
         for (Usuario u:membro){
@@ -36,7 +36,7 @@ public class Equipe {
         }
     }
 
-    public String getNomeEquipe(){
-        return nomeEquipe;
+    public String getEquipe(){
+        return Equipe;
     }
 }
